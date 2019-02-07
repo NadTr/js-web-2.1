@@ -7,4 +7,16 @@
 /*
   If you need some CSS for any reason you can put it here.
 */
-
+.image {
+  display: block;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+}
+.image img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}

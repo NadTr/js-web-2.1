@@ -12,4 +12,13 @@ import "./style.scss";
   Put the JavaScript code you want below.
 */
 
-console.log("Hey look in your browser console. It works!");
+import images from "./Cat/*.jpg"
+
+let i = 1;
+setInterval( ()=>{
+  document.getElementById("catimg").src =images["cat"+i];
+  i++;
+  if (i == 12){
+    i=1
+  }
+}, 1000)
