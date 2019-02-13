@@ -20,4 +20,4 @@ async function getCatData() {
         catimg.src = response.data.file;
     }
 
-setInterval(()=>{getCatData()},1000);
+setInterval(()=>{getCatData()},2500);
